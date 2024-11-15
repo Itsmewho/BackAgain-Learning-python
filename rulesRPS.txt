@@ -1,0 +1,6 @@
+# Rock, paper and scissors.
+# Best of 3 - score keeping, while loop,
+# Clear screen on each round
+# Show winner and score in rounds rounds
+# In the end an option for a restart or quit
+# If wrong option is chosen ask for a good one option.

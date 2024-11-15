@@ -1,0 +1,11 @@
+{
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#DC143C", // crimson
+    "terminalCursor.foreground": "#DC143C", // crimson
+    "editor.selectionBackground": "#2c90ee49",
+    "editor.selectionHighlightBackground": "#2263e610"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#54a6543d"
+  }
+}
