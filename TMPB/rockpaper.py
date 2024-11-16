@@ -4,12 +4,12 @@ import os
 
 
 def clear():
-    """Clears the console."""
+    # Clears the console.
     os.system("cls" if os.name == "nt" else "clear")
 
 
 def print_typing_effect(message, delay=0.1):
-    """Prints a message with a typing effect."""
+    # Prints a message with a typing effect.
     for char in message:
         print(char, end="", flush=True)
         time.sleep(delay)
@@ -17,7 +17,7 @@ def print_typing_effect(message, delay=0.1):
 
 
 def get_player_choice():
-    """Gets the player's choice, validates it, and returns it."""
+    # Gets the player's choice, validates it, and returns it.
     while True:
         choice = input(
             "What do you choose? (rock, paper, scissors) or 'q' to quit: "
@@ -30,7 +30,7 @@ def get_player_choice():
 
 
 def game_result(player, ai):
-    """Determines the game result based on player and AI choices."""
+    # Determines the game result based on player and AI choices.
     if player == ai:
         return "draw"
     elif (
