@@ -17,7 +17,7 @@ def typing_effect(message, delay=0.1):
 
 
 def input_with_typing_effect(prompt, delay=0.1):
-    """Displays a prompt with a typing effect and waits for user input."""
+    # Displays a prompt with a typing effect and waits for user input.
     for char in prompt:
         print(char, end="", flush=True)
         time.sleep(delay)
