@@ -16,7 +16,7 @@ questions = {
         "answer": "left",
     },
     "question_two": {
-        "text": "A pirate asks you: 'You need to go right to find the treasure!' \nWhere do you go? (left or right) ",
+        "text": "A pirate says to you: 'You need to go right to find the treasure!' \nWhere do you go? (left or right) ",
         "answer": "left",
     },
     "question_three": {
