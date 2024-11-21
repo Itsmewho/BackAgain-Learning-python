@@ -64,7 +64,6 @@ def get_valid_response(prompt, valid_responses, quit_responses):
 def main():
 
     program_over = False
-    wrong_input = False
 
     bill = 0
     people_to_share = 0
