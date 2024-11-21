@@ -6,7 +6,7 @@
 # Give a second helpline. Show 2 letters, if not the last 2 letters of the word.
 # Add difficulty levels.
 # High score -> CRUD operations -> Remember player.
-# Show last highscore and player
+# Show last highscore and player - use json or MONGODB lol
 
 # Refactor the game-over condition so the game stops immediately when a player loses all lives or chooses to quit. (quit any time)
 
