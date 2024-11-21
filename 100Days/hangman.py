@@ -1,6 +1,7 @@
 # Make a hangman game.
 
 # Use a dict -> import the dict from another file.
+# Mabe use random.sample or secrets.choice instead of just random.choice?????
 # Give each word a hint as helpline.
 # Give a second helpline. Show 2 letters, if not the last 2 letters of the word.
 # Add difficulty levels.
