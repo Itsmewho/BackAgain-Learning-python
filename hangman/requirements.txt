@@ -1,6 +1,7 @@
 # Use your own database from MongoDB to make this work!!!!!!!:
 # Normal CRUD-Operaterations ( Can use the code provided for it)
 # The dictionary's are in the data folder. 
+# .env has something like this: MONGO_URI = mongodb://localhost:5000/   -->>   MONGO_DBNAME  -->  MONGO_DBSCORE
 
 
 
