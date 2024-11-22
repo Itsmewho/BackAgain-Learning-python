@@ -1,11 +1,11 @@
+from database.db_operations import read_collection
 import time
 import os
 import random
-from database.db_operations import read_collection
 
 
 def clear():
-    os.system("çls" if os.name == "nt" else "clear")
+    os.system("cls" if os.name == "nt" else "clear")
 
 
 def handle_quit():
@@ -27,19 +27,19 @@ def input_typing_effect(prompt, delay=0.075):
     return input()
 
 
-def pauze_clear(delay=0.3, message=None, typing_delay=0.075):
+def pauze_clear(delay=0.35, message=None, typing_delay=0.075):
     if message:
         for char in message:
             print(char, end="", flush=True)
             time.sleep(delay)
         print()
     else:
-        time.sleep()
+        time.sleep(delay)
         clear()
 
 
 def get_valid_response(prompt, valid_response, quit_response):
-    # May delete this later?
+    # Will delete this one ?
     while True:
         response = input_typing_effect(prompt).lower()
         if response in valid_response:
@@ -51,7 +51,6 @@ def get_valid_response(prompt, valid_response, quit_response):
 
 
 def random_word(difficulty=None):
-    # Set to None will later change on players input.
     words = read_collection(difficulty)
     return random.choice(words)
 
@@ -67,5 +66,5 @@ def validate_input():
             return user_input
         else:
             typing_effect(
-                "Wrong input! Please use a single letter of the Latin alphabet."
+                "Invalid input! Please enter a single letter from the Latin alphabet."
             )

@@ -33,15 +33,15 @@ def read_collection(collection_name):
         return []
 
 
-def update_score(highscore, player_name, new_score):
+def update_score(highscore_collection, player_name, new_score):
     # Update: Updates a player's score, keeps the high score list to 5 players
     try:
         # Check if player exists in the highscore list
-        player = db[highscore].find_one({"name": player_name})
+        player = db[highscore_collection].find_one({"name": player_name})
 
         if player:
             # Player exists, update the score
-            result = db[highscore].update_one(
+            result = db[highscore_collection].update_one(
                 {"name": player_name}, {"$set": {"score": new_score}}
             )
             if result.modified_count > 0:
@@ -56,17 +56,19 @@ def update_score(highscore, player_name, new_score):
                 )
         else:
             # Player does not exist, add to the highscore collection
-            db[highscore].insert_one({"name": player_name, "score": new_score})
+            db[highscore_collection].insert_one(
+                {"name": player_name, "score": new_score}
+            )
             print(
                 Fore.GREEN
                 + f"Added new player {player_name} with score {new_score}{Style.RESET_ALL}"
             )
 
         # Keep only the top 5 high scores
-        high_scores = list(db[highscore].find().sort("score", -1))
+        high_scores = list(db[highscore_collection].find().sort("score", -1))
         if len(high_scores) > 5:
             # Remove the player with the lowest score
-            db[highscore].delete_one({"_id": high_scores[-1]["_id"]})
+            db[highscore_collection].delete_one({"_id": high_scores[-1]["_id"]})
             print(
                 Fore.RED
                 + "Removed the lowest score to keep top 5 high scores."
