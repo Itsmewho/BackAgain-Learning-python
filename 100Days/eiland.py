@@ -65,7 +65,6 @@ def typing_effect(message, delay=0.075):
     for char in message:
         print(char, end="", flush=True)
         time.sleep(delay)
-    print
 
 
 def input_typing_effect(prompt, delay=0.075):
