@@ -56,8 +56,8 @@ def pause_and_clear(delay=0.35, preserve_message=None, typing_delay=0.075):
 
 def handle_quit():
     # Game ending message
-    typing_effect("Till next time! My old treasure hunter!")
-    pause_and_clear(preserve_message=None)
+    typing_effect("Till next time! My old treasure hunter!", delay=0.5)
+    clear()
 
 
 def typing_effect(message, delay=0.075):
