@@ -1,0 +1,17 @@
+[
+  { "word": "piano", "hint": "A musical instrument with keys." },
+  { "word": "horse", "hint": "A farm animal, can run fast." },
+  { "word": "phone", "hint": "Used to make calls." },
+  { "word": "apple", "hint": "A fruit, keeps the doctor away." },
+  { "word": "chair", "hint": "You sit on it." },
+  { "word": "clock", "hint": "Tells time." },
+  { "word": "camel", "hint": "Desert animal with humps." },
+  { "word": "paper", "hint": "Used for writing or drawing." },
+  { "word": "beach", "hint": "Sandy place by the ocean." },
+  { "word": "bread", "hint": "Used to make sandwiches." },
+  { "word": "plane", "hint": "Flies in the sky." },
+  { "word": "paint", "hint": "Used to create art." },
+  { "word": "cloud", "hint": "Floats in the sky, brings rain." },
+  { "word": "train", "hint": "Runs on tracks, carries people." },
+  { "word": "house", "hint": "A place where people live." }
+]

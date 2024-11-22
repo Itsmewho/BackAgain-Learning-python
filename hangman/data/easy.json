@@ -1,0 +1,17 @@
+[
+  { "word": "cat", "hint": "A common pet that purrs." },
+  { "word": "sun", "hint": "Shines brightly in the sky." },
+  { "word": "book", "hint": "You read it for stories." },
+  { "word": "dog", "hint": "A loyal, barking pet." },
+  { "word": "car", "hint": "You drive it to travel." },
+  { "word": "fish", "hint": "Lives in water, swims." },
+  { "word": "tree", "hint": "Has leaves and a trunk." },
+  { "word": "moon", "hint": "Shines at night, reflects the sun." },
+  { "word": "milk", "hint": "A white drink, from cows." },
+  { "word": "star", "hint": "Twinkles in the night sky." },
+  { "word": "cake", "hint": "Sweet dessert for birthdays." },
+  { "word": "shoe", "hint": "You wear it on your feet." },
+  { "word": "key", "hint": "Unlocks a door." },
+  { "word": "rain", "hint": "Water falling from the sky." },
+  { "word": "hat", "hint": "Worn on the head." }
+]
