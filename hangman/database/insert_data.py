@@ -18,10 +18,10 @@ def load_json(file_path):
         return json.load(file)
 
 
-easy = load_json("data/easy.json")
-medium = load_json("data/medium.json")
-hard = load_json("data/hard.json")
-highscore = load_json("data/highscore.json")
+easy = load_json("../data/easy.json")
+medium = load_json("../data/medium.json")
+hard = load_json("../data/hard.json")
+highscore = load_json("../data/highscore.json")
 
 # Insert the data collections
 
