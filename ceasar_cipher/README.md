@@ -4,7 +4,7 @@
 
 # Store messages on MONGOBD.
 
-# Give message a senders name, password and random decript key (The easy way).
+# Give message a senders name, password and random decript key (The easy way or use medium.secrets() lol ).
 
 # If one of those are incrorrect give ERROR-message.
 
@@ -33,3 +33,5 @@
 # Good comments
 
 # Dont forget a .env .gitignore and pip install pipreqs ---> pipreqs /path/to/project
+
+# Try to keep the collections 'hidden' use .env - > MONGO_DBENCRIPT, MONGO_DECRIPT or something like that
