@@ -1,7 +1,14 @@
-Make a ceasar cipher! (sort of,. ceasar is basic hashing right? lol )
+Make a ceasar cipher!
+
+(sort of,. ceasar is basic hashing right? lol )
+
+#
 
 Encrypt and decript messages.
+
 Store messages on MONGOBD.
+
+#
 
 - Only registered users can use caesar
 - Resgistered users need to accept invite to get secure message (only shared between user a and b / a and c,.. b and c will get another one)
@@ -18,7 +25,11 @@ Store messages on MONGOBD.
 - A message can only be sent between party's
 - Sent message are sent and received from database
 
+#
+
 Input() options:
+
+#
 
 -invite from a - show / delete
 
