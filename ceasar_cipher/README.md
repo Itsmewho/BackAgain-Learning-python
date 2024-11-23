@@ -20,14 +20,15 @@ Store messages on MONGOBD.
 
 Input() options:
 
-invite from a - show / delete
-if shown read invite accept / decline
-show contact list:
-sent invite to...
-sent message to....
-show messages from,....
-delete messages? (delete all message data also from receiving party's)
-delete account... - Are you sure? (y/n)
+-invite from a - show / delete
+
+- If shown read invite accept / decline
+- Show contact list:
+- Sent invite to...
+- Sent message to....
+- Show messages from,....
+- Delete messages? (delete all message data also from receiving party's)
+- Delete account... - Are you sure? (y/n)
 
 if message received give message: onread message wanna read it? :
 
