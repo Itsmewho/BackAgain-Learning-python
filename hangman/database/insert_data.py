@@ -1,8 +1,8 @@
-import json
-from colorama import Fore, Style
-from pymongo import MongoClient
-from dotenv import load_dotenv
 import os
+import json
+from dotenv import load_dotenv
+from pymongo import MongoClient
+from colorama import Fore, Style
 
 load_dotenv()
 MONGO_URI = os.getenv("MONGO_URI")
