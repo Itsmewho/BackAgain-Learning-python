@@ -69,6 +69,9 @@ MONGO_URI=connect
 MONGO_DBNAME=secure_messaging
 
 MONGO_DBCONTACT=users
+
 MONGO_DBCONTACTLIST=contact_list
+
 MONGO_DBINVITES=invitations
+
 MONGO_DBMESSAGES=messages
